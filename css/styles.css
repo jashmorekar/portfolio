@@ -271,6 +271,11 @@ a {
 
 
 @media screen and (max-width: 768px) {
+  
+     #heading {
+     font-size: 2em;
+   }
+  
   .mount-img {
     height: 50vh;
   }
@@ -313,7 +318,7 @@ a {
     justify-content: center;
     padding-left: 105px;
     padding-top: 50px;
-    width: 60%;
+    
   }
 
 }
