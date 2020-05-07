@@ -312,6 +312,7 @@ a {
   .vertical-line {
     height: 1px;
     width: 60%;
+    margin-left: 40px;
   }
 
   .profile-text {
