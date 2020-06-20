@@ -839,6 +839,20 @@ svg circle:nth-child(2) {
     width: 40vw;
     max-width: inherit;
   }
+
+  .smiley {
+    margin: auto;
+    position: absolute;
+    top: 53px;
+    left: 36vw;
+    align-items: center;
+  }
+
+  .smiley i {
+    z-index: 3;
+    background-color: #0a2a43;
+    padding: 0 30px;
+  }
 }
 
 .nav-active {
@@ -881,4 +895,3 @@ cont-nav {
   letter-spacing: 3px;
   z-index: 1;
 }
-
