@@ -606,6 +606,16 @@ svg circle:nth-child(2) {
   margin: auto;
 }
 
+.icons i {
+  transition: 0.5s;
+}
+
+.icons i:hover {
+  transform: translateY(-5px);
+  box-shadow: -1px -1px 20px rgba(255, 255, 255, 0.432),
+    6px 6px 20px rgb(0, 0, 0);
+}
+
 .copyright {
   margin-top: 50px;
   color: #fff;
