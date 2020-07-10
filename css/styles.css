@@ -283,6 +283,35 @@ a {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+
+.arrow-container {
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 49%;
+  animation: pulse 1.5s 1s ease-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.dw-arrow {
+  width: 50px;
+  color: #000;
+}
+
 .resume-btn {
   color: #fff;
   border: none;
