@@ -288,7 +288,8 @@ a {
   text-align: center;
   position: absolute;
   top: 90.5%;
-  left: 49%;
+  left: 50%;
+    transform: translateX(-50%);
   animation: pulse 1.5s 1s ease-out infinite;
 }
 
@@ -310,6 +311,10 @@ a {
 .dw-arrow {
   width: 50px;
   color: #000;
+    position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 }
 
 .resume-btn {
