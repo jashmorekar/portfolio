@@ -5,7 +5,19 @@ let heading = document.getElementById("heading");
 
 
 
+function arrowDisappear() {
+  var downArrow = document.querySelector(".dw-arrow");
+  var arrowPosition = downArrow.getBoundingClientRect().top;
+  var screenPosition = window.innerHeight / 9;
 
+  if (arrowPosition < screenPosition) {
+    downArrow.classList.add("dw-arrow-disappear");
+  } else {
+    downArrow.classList.remove("dw-arrow-disappear");
+  }
+}
+
+window.addEventListener("scroll", arrowDisappear);
 
 
 
