@@ -154,7 +154,7 @@ a {
 #heading {
   position: relative;
   color: rgb(239, 239, 255);
-  font-size: 5em;
+  font-size: 6em;
   z-index: 1;
   text-shadow: 2px 2.5px rgb(3, 2, 56);
 }
