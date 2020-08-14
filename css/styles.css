@@ -760,7 +760,8 @@ svg circle:nth-child(2) {
   margin: auto;
   position: absolute;
   top: 73px;
-  left: 45vw;
+  left: 50%;
+  transform: translateX(-50%);
   align-items: center;
 }
 
@@ -891,7 +892,8 @@ svg circle:nth-child(2) {
     margin: auto;
     position: absolute;
     top: 53px;
-    left: 36vw;
+    left: 50%;
+    transform: translateX(-50%);
     align-items: center;
   }
 
